@@ -18,12 +18,10 @@ function TopBar() {
 
                 <div className='topbarIconContainer'>
                     <Language />
-                    <span className='topIconBadge'>2</span>
                 </div>
 
                 <div className='topbarIconContainer'>
                     <Settings />
-                    <span className='topIconBadge'>2</span>
                 </div>
             </div>
         </div> 
