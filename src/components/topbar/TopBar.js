@@ -23,6 +23,8 @@ function TopBar() {
                 <div className='topbarIconContainer'>
                     <Settings />
                 </div>
+
+                <img  src='' alt='' />
             </div>
         </div> 
     </div>
