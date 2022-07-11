@@ -24,6 +24,12 @@
     align-items: center;
 }
 
+.topright img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 .topbarIconContainer {
     position: relative;
     color: #555;
