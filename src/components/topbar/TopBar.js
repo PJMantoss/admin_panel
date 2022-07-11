@@ -6,10 +6,10 @@ function TopBar() {
   return (
     <div className="topbar">
         <div className="topbarWrapper">
-            <div className="left">
+            <div className="topleft">
                 <span className="logo">Admin Panel</span>
             </div>
-            <div className="right">right</div>
+            <div className="topright">right</div>
         </div> 
     </div>
   )
