@@ -18,6 +18,11 @@
     font-weight: bold;
 }
 
+.topright {
+    display: flex;
+    align-items: center;
+}
+
 .topbarIconContainer {
     position: relative;
 }
