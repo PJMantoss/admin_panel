@@ -11,8 +11,9 @@ function TopBar() {
                 <span className='logo'>Admin Panel</span>
             </div>
             <div className='topright'>
-                <div className='topbarIcons'>
+                <div className='topbarIconContainer'>
                     <NotificationsNone />
+                    <div className='topbarIconBadge'>2</div>
                 </div>
             </div>
         </div> 
