@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+
+import './topbar.css';
 
 function TopBar() {
   return (
     <div className="topbar">
-        TopBar
+        <div className="topbarWrapper">
+            <div className="left"></div>
+            <div className="right"></div>
+        </div> 
     </div>
   )
 }
