@@ -1,4 +1,5 @@
 import React from 'react';
+import {NotificationsNone} from '@mui/icons-material';
 
 import './TopBar.css';
 
@@ -10,7 +11,9 @@ function TopBar() {
                 <span className='logo'>Admin Panel</span>
             </div>
             <div className='topright'>
-                <div className='topbarIcons'></div>
+                <div className='topbarIcons'>
+                    <NotificationsNone />
+                </div>
             </div>
         </div> 
     </div>
