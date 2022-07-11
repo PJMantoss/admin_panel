@@ -13,7 +13,7 @@ function TopBar() {
             <div className='topright'>
                 <div className='topbarIconContainer'>
                     <NotificationsNone />
-                    <div className='topbarIconBadge'>2</div>
+                    <span className='topIconBadge'>2</span>
                 </div>
             </div>
         </div> 
