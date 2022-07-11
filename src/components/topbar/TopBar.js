@@ -24,7 +24,7 @@ function TopBar() {
                     <Settings />
                 </div>
 
-                <img  src='' alt='' />
+                <img  src='https://i.ibb.co/dJb4jnb/blue-jacket-woman2.jpg' alt='avatar' />
             </div>
         </div> 
     </div>
