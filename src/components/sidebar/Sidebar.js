@@ -7,7 +7,7 @@ function Sidebar() {
         <div className='sidebarMenu'>
           <div className='sidebarTitle'></div>
           <ul className='sidebarList'>
-            <li className='sidebar'></li>
+            <li className='sidebarList'></li>
           </ul>
         </div>
       </div>
