@@ -5,7 +5,7 @@ function Sidebar() {
     <div className='sidebar'>
       <div className='sidebarWrapper'>
         <div className='sidebarMenu'>
-          <div className='sidebarTitle'></div>
+          <h3 className='sidebarTitle'></h3>
           <ul className='sidebarList'>
             <li className='sidebarList'></li>
           </ul>
