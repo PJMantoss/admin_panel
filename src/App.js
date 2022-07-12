@@ -6,9 +6,9 @@ function App() {
   return (
     <div>
       <TopBar />
-      <div className="container">
+      <div className='container'>
         <Sidebar />
-        <div className="others">Other Pages</div>
+        <div className='others'>Other Pages</div>
       </div>
     </div>
   );
