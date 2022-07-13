@@ -1,5 +1,11 @@
 import React from 'react';
-import { LineStyle, Timeline, TrendingUp } from '@mui/icons-material';
+import { 
+  LineStyle, 
+  Timeline, 
+  TrendingUp,
+  PersonOutline, 
+  Inventory,
+} from '@mui/icons-material';
 
 import './sidebar.css';
 
@@ -31,12 +37,12 @@ function Sidebar() {
           <h3 className='sidebarTitle'>Quick Menu</h3>
           <ul className='sidebarList'>
             <li className='sidebarListItem active'>
-              <LineStyle className='sidebarListIcon' />
+              <PersonOutline className='sidebarListIcon' />
               Users
             </li>
 
             <li className='sidebarListItem'>
-              <Timeline className='sidebarListIcon' />
+              <Inventory className='sidebarListIcon' />
               Products
             </li>
 
