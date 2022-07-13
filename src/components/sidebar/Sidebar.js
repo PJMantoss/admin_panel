@@ -11,7 +11,8 @@ import {
   ChatOutlined,
   RateReviewOutlined,
   ManageAccountsOutlined,
-  HourglassTopOutlined
+  HourglassTopOutlined,
+  SummarizeOutlined 
 } from '@mui/icons-material';
 
 import './sidebar.css';
