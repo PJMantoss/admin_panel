@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 import './chart.css';
 
@@ -41,14 +41,14 @@ function Chart() {
             {
                 name: 'Sep',
                 'Active User': 4000,
-              },
-              {
-                  name: 'Oct',
-                  'Active User': 4000,
-              },
-              {
-                  name: 'Nov',
-                  'Active User': 3000,
+                },
+                {
+                    name: 'Oct',
+                    'Active User': 4000,
+                },
+                {
+                    name: 'Nov',
+                    'Active User': 3000,
                 },
                 {
                     name: 'Dec',
