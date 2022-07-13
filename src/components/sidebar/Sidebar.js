@@ -6,7 +6,10 @@ import {
   PersonOutline, 
   Inventory2Outlined,
   ReceiptLong,
-  AssessmentOutlined
+  AssessmentOutlined,
+  EmailOutlined,
+  ChatOutlined,
+  RateReviewOutlined
 } from '@mui/icons-material';
 
 import './sidebar.css';
@@ -64,18 +67,18 @@ function Sidebar() {
           <h3 className='sidebarTitle'>Notifications</h3>
           <ul className='sidebarList'>
             <li className='sidebarListItem active'>
-              <LineStyle className='sidebarListIcon' />
+              <EmailOutlined className='sidebarListIcon' />
               Mail
             </li>
 
             <li className='sidebarListItem'>
-              <Timeline className='sidebarListIcon' />
+              <ChatOutlined className='sidebarListIcon' />
               Feedback
             </li>
 
             <li className='sidebarListItem'>
-              <TrendingUp className='sidebarListIcon' />
-              Messages
+              <RateReviewOutlined className='sidebarListIcon' />
+              Reviews
             </li>
           </ul>
         </div>
