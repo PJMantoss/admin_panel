@@ -44,6 +44,11 @@ function Sidebar() {
               <TrendingUp className='sidebarListIcon' />
               Transactions
             </li>
+
+            <li className='sidebarListItem'>
+              <TrendingUp className='sidebarListIcon' />
+              Reports
+            </li>
           </ul>
         </div>
 
