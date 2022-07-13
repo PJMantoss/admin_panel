@@ -3,7 +3,7 @@ import './chart.css';
 
 function Chart() {
   return (
-    <div>Chart</div>
+    <div className='chart'>Chart</div>
   )
 }
 
