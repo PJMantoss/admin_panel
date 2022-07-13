@@ -8,6 +8,9 @@ function WidgetSm() {
         <ul className='widgetSmList'>
             <li className='widgetSmListItem'>
                 <img src='' alt='' className='widgetSmImg' />
+                <div className='widgetSmUser'>
+                    <span className='widgetSmUsername'></span>
+                </div>
             </li>
         </ul>
     </div>
