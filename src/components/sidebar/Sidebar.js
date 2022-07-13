@@ -9,7 +9,9 @@ import {
   AssessmentOutlined,
   EmailOutlined,
   ChatOutlined,
-  RateReviewOutlined
+  RateReviewOutlined,
+  ManageAccountsOutlined,
+  HourglassTopOutlined
 } from '@mui/icons-material';
 
 import './sidebar.css';
@@ -87,18 +89,18 @@ function Sidebar() {
           <h3 className='sidebarTitle'>Staff</h3>
           <ul className='sidebarList'>
             <li className='sidebarListItem active'>
-              <LineStyle className='sidebarListIcon' />
-              Home
+              <ManageAccountsOutlined className='sidebarListIcon' />
+              Accounts
             </li>
 
             <li className='sidebarListItem'>
-              <Timeline className='sidebarListIcon' />
-              Analytics
+              <HourglassTopOutlined className='sidebarListIcon' />
+              Work Hours
             </li>
 
             <li className='sidebarListItem'>
-              <TrendingUp className='sidebarListIcon' />
-              Sales
+              <SummarizeOutlined className='sidebarListIcon' />
+              Activities
             </li>
           </ul>
         </div>
