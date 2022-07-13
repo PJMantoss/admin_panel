@@ -30,4 +30,9 @@
     align-items: center;
     padding: 5px;
     cursor: pointer;
+    border: 10px;
+}
+
+.sidebarListItem.active, .sidebarListItem:hover{
+    background: rgb(240, 240, 255);
 }
