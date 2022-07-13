@@ -1,4 +1,5 @@
 import React from 'react';
+import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import './widgetSm.css';
 
 function WidgetSm() {
@@ -12,7 +13,10 @@ function WidgetSm() {
                     <span className='widgetSmUsername'>Mimi Mugana</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                 </div>
-                <button className='widgetSmButton'></button>
+                <button className='widgetSmButton'>
+                    <VisibilityOutlinedIcon />
+                    Display
+                </button>
             </li>
         </ul>
     </div>
