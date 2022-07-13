@@ -9,6 +9,7 @@ function App() {
       <div className='container'>
         <Sidebar />
       </div>
+      <div className='others'>Other</div>
     </div>
   );
 }
