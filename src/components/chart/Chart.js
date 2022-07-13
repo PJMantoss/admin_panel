@@ -3,7 +3,7 @@ import { LineChart, Line, XAxis, CartesianGrid, Tooltip, ResponsiveContainer } f
 
 import './chart.css';
 
-function Chart() {
+function Chart({title, data, dataKey, grid}) {
 
     const data = [
         {
@@ -64,7 +64,7 @@ function Chart() {
                 <XAxis dataKey='name' stroke='#5550bd' />
                 <Line type='monotone' dataKey='Active User' stroke='#5550bd' />
                 <Tooltip />
-                <CartesianGrid stroke='#e0dfdf' strokeDasharray='4 4' />
+                {grid && <CartesianGrid stroke='#e0dfdf' strokeDasharray='4 4' />}
             </LineChart>
         </ResponsiveContainer>
     </div>
