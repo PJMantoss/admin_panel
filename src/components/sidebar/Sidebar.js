@@ -11,17 +11,17 @@ function Sidebar() {
           <h3 className='sidebarTitle'>Dashboard</h3>
           <ul className='sidebarList'>
             <li className='sidebarListItem active'>
-              <LineStyle />
+              <LineStyle className='sidebarListIcon' />
               Home
             </li>
 
             <li className='sidebarListItem'>
-              <Timeline />
+              <Timeline className='sidebarListIcon' />
               Analytics
             </li>
 
             <li className='sidebarListItem'>
-              <TrendingUp />
+              <TrendingUp className='sidebarListIcon' />
               Sales
             </li>
           </ul>
