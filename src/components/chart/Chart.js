@@ -63,6 +63,8 @@ function Chart() {
             <LineChart data={data}>
                 <XAxis dataKey='name' stroke='#5550bd' />
                 <Line type='monotone' dataKey='Active User' stroke='#5550bd' />
+                <Tooltip />
+                <CartesianGrid stroke='#e0dfdf' strokeDasharray='4 4' />
             </LineChart>
         </ResponsiveContainer>
     </div>
