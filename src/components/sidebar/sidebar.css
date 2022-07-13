@@ -36,3 +36,8 @@
 .sidebarListItem.active, .sidebarListItem:hover{
     background: rgb(240, 240, 255);
 }
+
+.sidebarListIcon{
+    width: 30px;
+    margin-right: 5px;
+}
