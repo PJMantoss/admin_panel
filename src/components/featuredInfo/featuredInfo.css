@@ -28,5 +28,15 @@
 .featuredMoneyContainer .featuredMoneyRate{
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-left: 20px;
 }
+
+.featuredIcon{
+    font-size: 14px;
+    color: green;
+    margin-left: 5px;
+}
+
+.featuredIcon.negative{}
+
+.featuredIcon.positive{}
