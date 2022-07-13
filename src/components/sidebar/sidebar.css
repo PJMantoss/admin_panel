@@ -2,4 +2,6 @@
     flex: 1;
     height: calc(100vh - 50px);
     background: lightblue;
+    position: sticky;
+    top: 50px;
 }
