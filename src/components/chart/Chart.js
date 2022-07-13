@@ -7,10 +7,8 @@ function Chart() {
 
     const data = [
         {
-          name: 'Page A',
-          uv: 4000,
-          pv: 2400,
-          amt: 2400,
+          name: 'Jan',
+          'Active User': 4000,
         },
         {
           name: 'Page B',
@@ -56,7 +54,7 @@ function Chart() {
         <ResponsiveContainer width="100%" aspect={4/1}>
             <LineChart data={data}>
                 <XAxis dataKey='name' stroke='#5550bd' />
-                <Line type='monotone' dataKey='Active User'/>
+                <Line type='monotone' dataKey='Active User' stroke='#5550bd' />
             </LineChart>
         </ResponsiveContainer>
     </div>
