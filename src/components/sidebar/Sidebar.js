@@ -15,12 +15,12 @@ function Sidebar() {
 
             <li className='sidebarListItem'>
               <Timeline />
-              Home
+              Analytics
             </li>
 
             <li className='sidebarListItem'>
               <TrendingUp />
-              Home
+              Sales
             </li>
           </ul>
         </div>
