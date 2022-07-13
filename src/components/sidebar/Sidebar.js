@@ -8,7 +8,7 @@ import {
   ReceiptLong,
   AssessmentOutlined,
   EmailOutlined,
-  ChatOutlined,
+  SupportAgentOutlined,
   RateReviewOutlined,
   ManageAccountsOutlined,
   HourglassTopOutlined,
@@ -75,8 +75,8 @@ function Sidebar() {
             </li>
 
             <li className='sidebarListItem'>
-              <ChatOutlined className='sidebarListIcon' />
-              Feedback
+              <SupportAgentOutlined className='sidebarListIcon' />
+              Support
             </li>
 
             <li className='sidebarListItem'>
