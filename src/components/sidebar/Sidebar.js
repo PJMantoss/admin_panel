@@ -4,7 +4,7 @@ import {
   Timeline, 
   TrendingUp,
   PersonOutline, 
-  Inventory,
+  Inventory2Outlined,
   ReceiptLong,
   AssessmentOutlined
 } from '@mui/icons-material';
@@ -44,7 +44,7 @@ function Sidebar() {
             </li>
 
             <li className='sidebarListItem'>
-              <Inventory className='sidebarListIcon' />
+              <Inventory2Outlined className='sidebarListIcon' />
               Products
             </li>
 
