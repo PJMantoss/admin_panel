@@ -44,3 +44,8 @@
 .featuredIcon.positive{
     color: blue;
 }
+
+.featuredSubTitle{
+    font-size: 14px;
+    color: gray;
+}
