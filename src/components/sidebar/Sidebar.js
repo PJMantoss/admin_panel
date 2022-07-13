@@ -1,6 +1,8 @@
 import React from 'react';
 import { LineStyle, Timeline, TrendingUp } from '@mui/icons-material';
 
+import './sidebar.css';
+
 function Sidebar() {
   return (
     <div className='sidebar'>
