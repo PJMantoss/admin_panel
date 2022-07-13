@@ -19,3 +19,8 @@
     font-size: 13px;
     color: lightgray;
 }
+
+.sidebarListItem {
+    padding: 5px;
+    list-style: none;
+}
