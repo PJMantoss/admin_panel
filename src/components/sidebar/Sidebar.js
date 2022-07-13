@@ -65,17 +65,17 @@ function Sidebar() {
           <ul className='sidebarList'>
             <li className='sidebarListItem active'>
               <LineStyle className='sidebarListIcon' />
-              Home
+              Mail
             </li>
 
             <li className='sidebarListItem'>
               <Timeline className='sidebarListIcon' />
-              Analytics
+              Feedback
             </li>
 
             <li className='sidebarListItem'>
               <TrendingUp className='sidebarListIcon' />
-              Sales
+              Messages
             </li>
           </ul>
         </div>
