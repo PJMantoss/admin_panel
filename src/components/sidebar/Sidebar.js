@@ -5,6 +5,8 @@ import {
   TrendingUp,
   PersonOutline, 
   Inventory,
+  ReceiptLong,
+  Assessment
 } from '@mui/icons-material';
 
 import './sidebar.css';
@@ -47,12 +49,12 @@ function Sidebar() {
             </li>
 
             <li className='sidebarListItem'>
-              <TrendingUp className='sidebarListIcon' />
+              <ReceiptLong className='sidebarListIcon' />
               Transactions
             </li>
 
             <li className='sidebarListItem'>
-              <TrendingUp className='sidebarListIcon' />
+              <Assessment className='sidebarListIcon' />
               Reports
             </li>
           </ul>
