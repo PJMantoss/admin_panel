@@ -26,6 +26,67 @@ function Sidebar() {
             </li>
           </ul>
         </div>
+
+        <div className='sidebarMenu'>
+          <h3 className='sidebarTitle'>Quick Menu</h3>
+          <ul className='sidebarList'>
+            <li className='sidebarListItem active'>
+              <LineStyle className='sidebarListIcon' />
+              Home
+            </li>
+
+            <li className='sidebarListItem'>
+              <Timeline className='sidebarListIcon' />
+              Analytics
+            </li>
+
+            <li className='sidebarListItem'>
+              <TrendingUp className='sidebarListIcon' />
+              Sales
+            </li>
+          </ul>
+        </div>
+
+        <div className='sidebarMenu'>
+          <h3 className='sidebarTitle'>Notifications</h3>
+          <ul className='sidebarList'>
+            <li className='sidebarListItem active'>
+              <LineStyle className='sidebarListIcon' />
+              Home
+            </li>
+
+            <li className='sidebarListItem'>
+              <Timeline className='sidebarListIcon' />
+              Analytics
+            </li>
+
+            <li className='sidebarListItem'>
+              <TrendingUp className='sidebarListIcon' />
+              Sales
+            </li>
+          </ul>
+        </div>
+
+        <div className='sidebarMenu'>
+          <h3 className='sidebarTitle'>Staff</h3>
+          <ul className='sidebarList'>
+            <li className='sidebarListItem active'>
+              <LineStyle className='sidebarListIcon' />
+              Home
+            </li>
+
+            <li className='sidebarListItem'>
+              <Timeline className='sidebarListIcon' />
+              Analytics
+            </li>
+
+            <li className='sidebarListItem'>
+              <TrendingUp className='sidebarListIcon' />
+              Sales
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   )
