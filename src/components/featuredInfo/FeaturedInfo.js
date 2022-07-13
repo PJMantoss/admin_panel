@@ -14,7 +14,7 @@ function FeaturedInfo() {
                     <ArrowDownwardOutlined className='featuredIcon negative' />
                 </span>
             </div>
-            <span className='featuredSubCat'>
+            <span className='featuredSubTitle'>
                 Compared to last month
             </span>
         </div>
@@ -28,7 +28,7 @@ function FeaturedInfo() {
                     <ArrowDownwardOutlined className='featuredIcon negative' />
                 </span>
             </div>
-            <span className='featuredSubCat'>
+            <span className='featuredSubTitle'>
                 Compared to last month
             </span>
         </div>
@@ -42,7 +42,7 @@ function FeaturedInfo() {
                     <ArrowUpwardOutlined className='featuredIcon positive' />
                 </span>
             </div>
-            <span className='featuredSubCat'>
+            <span className='featuredSubTitle'>
                 Compared to last month
             </span>
         </div>
