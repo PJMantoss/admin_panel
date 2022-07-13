@@ -14,3 +14,8 @@
 .sidebarMenu {
     margin-bottom: 10px;
 }
+
+.sidebarTitle {
+    font-size: 13px;
+    color: lightgray;
+}
