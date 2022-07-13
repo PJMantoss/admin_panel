@@ -20,7 +20,11 @@
     color: lightgray;
 }
 
-.sidebarListItem {
+.sidebarList {
     padding: 5px;
     list-style: none;
+}
+
+.sidebarListItem{
+    cursor: pointer;
 }
