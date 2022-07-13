@@ -7,10 +7,12 @@ function WidgetSm() {
         <span className='widgetSmTitle'>New Members</span>
         <ul className='widgetSmList'>
             <li className='widgetSmListItem'>
-                <img src='' alt='' className='widgetSmImg' />
+                <img src='https://i.ibb.co/PDtNL1P/black-business-woman.png' alt='user' className='widgetSmImg' />
                 <div className='widgetSmUser'>
-                    <span className='widgetSmUsername'></span>
+                    <span className='widgetSmUsername'>Mimi Mugana</span>
+                    <span className='widgetSmUserTitle'>Software Engineer</span>
                 </div>
+                <button className='widgetSmButton'></button>
             </li>
         </ul>
     </div>
