@@ -11,7 +11,7 @@ function FeaturedInfo() {
                 <span className='featuredMoney'>$2,540</span>
                 <span className='featuredMoneyRate'>
                     -12.58
-                    <ArrowDownwardOutlined />
+                    <ArrowDownwardOutlined className='featuredIcon negative' />
                 </span>
             </div>
             <span className='featuredSubCat'>
@@ -25,7 +25,7 @@ function FeaturedInfo() {
                 <span className='featuredMoney'>$4,540</span>
                 <span className='featuredMoneyRate'>
                     -10.58
-                    <ArrowDownwardOutlined />
+                    <ArrowDownwardOutlined className='featuredIcon negative' />
                 </span>
             </div>
             <span className='featuredSubCat'>
@@ -39,7 +39,7 @@ function FeaturedInfo() {
                 <span className='featuredMoney'>$2,140</span>
                 <span className='featuredMoneyRate'>
                     10.58
-                    <ArrowUpwardOutlined />
+                    <ArrowUpwardOutlined className='featuredIcon positive' />
                 </span>
             </div>
             <span className='featuredSubCat'>
