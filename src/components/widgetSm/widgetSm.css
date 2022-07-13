@@ -5,3 +5,8 @@
     -webkit-box-shadow: 1px 1px 5px 1px #CCCCCC; 
     box-shadow: 1px 1px 5px 1px #CCCCCC;
 }
+
+.widgetSmTitle {
+    font-size: 32px;
+    font-weight: bold;
+}
