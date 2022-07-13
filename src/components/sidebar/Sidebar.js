@@ -6,7 +6,7 @@ import {
   PersonOutline, 
   Inventory,
   ReceiptLong,
-  Assessment
+  AssessmentOutlined
 } from '@mui/icons-material';
 
 import './sidebar.css';
@@ -54,7 +54,7 @@ function Sidebar() {
             </li>
 
             <li className='sidebarListItem'>
-              <Assessment className='sidebarListIcon' />
+              <AssessmentOutlined className='sidebarListIcon' />
               Reports
             </li>
           </ul>
