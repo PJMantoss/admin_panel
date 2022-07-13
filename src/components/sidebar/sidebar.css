@@ -30,7 +30,7 @@
     align-items: center;
     padding: 5px;
     cursor: pointer;
-    border: 10px;
+    border-radius: 10px;
 }
 
 .sidebarListItem.active, .sidebarListItem:hover{
