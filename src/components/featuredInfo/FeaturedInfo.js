@@ -13,6 +13,9 @@ function FeaturedInfo() {
                     <ArrowDownwardOutlined />
                 </span>
             </div>
+            <span className='featuredSubCat'>
+                Compared to last month
+            </span>
         </div>
     </div>
   )
