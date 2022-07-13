@@ -52,9 +52,12 @@ function Chart() {
 
   return (
     <div className='chart'>
-        <h3 className='chartTitle'>Sales Analytics</h3>
+        <h3 className='chartTitle'>User Analytics</h3>
         <ResponsiveContainer width="100%" aspect={4/1}>
-            <LineChart data={data}></LineChart>
+            <LineChart data={data}>
+                <XAxis dataKey='name' stroke='#5550bd' />
+                <Line type='monotone' dataKey='Active User'/>
+            </LineChart>
         </ResponsiveContainer>
     </div>
   )
