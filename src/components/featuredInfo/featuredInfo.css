@@ -37,6 +37,10 @@
     margin-left: 5px;
 }
 
-.featuredIcon.negative{}
+.featuredIcon.negative{
+    color: red;
+}
 
-.featuredIcon.positive{}
+.featuredIcon.positive{
+    color: blue;
+}
