@@ -1,5 +1,5 @@
 import React from 'react';
-import {LineStyle} from '@mui/icons-material';
+import { LineStyle, Timeline, TrendingUp } from '@mui/icons-material';
 
 function Sidebar() {
   return (
@@ -10,6 +10,16 @@ function Sidebar() {
           <ul className='sidebarList'>
             <li className='sidebarListItem'>
               <LineStyle />
+              Home
+            </li>
+
+            <li className='sidebarListItem'>
+              <Timeline />
+              Home
+            </li>
+
+            <li className='sidebarListItem'>
+              <TrendingUp />
               Home
             </li>
           </ul>
