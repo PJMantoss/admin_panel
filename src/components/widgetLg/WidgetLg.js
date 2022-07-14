@@ -29,7 +29,9 @@ function WidgetLg() {
             </td>
             <td className='widgetLgDate'>7 Jul, 2022</td>
             <td className='widgetLgAmt'>$2000</td>
-            <td className='widgetLgStatus'>Completed</td>
+            <td className='widgetLgStatus'>
+              <Button type='Approved' />
+            </td>
           </tr>
         </tbody>
       </table>
