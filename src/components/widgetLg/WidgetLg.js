@@ -27,7 +27,9 @@ function WidgetLg() {
               />
               <span className='widgetLgUsername'>Kanye West</span>
             </td>
-            <td></td>
+            <td className='widgetLgDate'>7 Jul, 2022</td>
+            <td className='widgetLgAmt'>$2000</td>
+            <td className='widgetLgStatus'>Completed</td>
           </tr>
         </tbody>
       </table>
