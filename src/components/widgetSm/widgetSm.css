@@ -34,5 +34,12 @@
 .widgetSmUser {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.widgetSmUsername {
+    font-weight: bold;
+}
+
+.widgetSmUserTitle {
+    font-weight: 300;
 }
