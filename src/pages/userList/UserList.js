@@ -7,7 +7,7 @@ const columns = [
     { field: 'user', headerName: 'User', width: 200, renderCell: (params) => {
         return(
             <div className='userListUser'>
-                <img src={params.row.avatar} alt='' />
+                <img className='userListImg' src={params.row.avatar} alt='' />
                 {params.row.username}
             </div>
         )
