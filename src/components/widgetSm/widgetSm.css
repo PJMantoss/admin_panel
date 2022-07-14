@@ -43,3 +43,10 @@
 .widgetSmUserTitle {
     font-weight: 300;
 }
+
+.widgetSmButton{
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    border: none;
+}
