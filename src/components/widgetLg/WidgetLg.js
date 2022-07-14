@@ -5,7 +5,7 @@ function WidgetLg() {
 
   const Button = ({type}) => {
     return (
-        <button className={'widgetLgBtn' + type}>
+        <button className={'widgetLgBtn ' + type}>
           {type}
         </button>
       )
