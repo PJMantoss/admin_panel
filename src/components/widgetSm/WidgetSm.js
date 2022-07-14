@@ -18,7 +18,7 @@ function WidgetSm() {
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                 </div>
                 <button className='widgetSmButton'>
-                    <VisibilityOutlinedIcon />
+                    <VisibilityOutlinedIcon className='widgetBtnIcon'  />
                     Display
                 </button>
             </li>
@@ -30,7 +30,7 @@ function WidgetSm() {
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                 </div>
                 <button className='widgetSmButton'>
-                    <VisibilityOutlinedIcon />
+                    <VisibilityOutlinedIcon className='widgetBtnIcon' />
                     Display
                 </button>
             </li>
@@ -42,7 +42,7 @@ function WidgetSm() {
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                 </div>
                 <button className='widgetSmButton'>
-                    <VisibilityOutlinedIcon />
+                    <VisibilityOutlinedIcon className='widgetBtnIcon' />
                     Display
                 </button>
             </li>
@@ -54,7 +54,7 @@ function WidgetSm() {
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                 </div>
                 <button className='widgetSmButton'>
-                    <VisibilityOutlinedIcon />
+                    <VisibilityOutlinedIcon className='widgetBtnIcon' />
                     Display
                 </button>
             </li>
@@ -66,7 +66,7 @@ function WidgetSm() {
                     <span className='widgetSmUserTitle'>Software Engineer</span>
                 </div>
                 <button className='widgetSmButton'>
-                    <VisibilityOutlinedIcon />
+                    <VisibilityOutlinedIcon className='widgetBtnIcon' />
                     Display
                 </button>
             </li>
