@@ -49,4 +49,11 @@
     align-items: center;
     padding: 7px 10px;
     border: none;
+    background: #eeeef7;
+    cursor: pointer;
+}
+
+.widgetBtnIcon{
+    width: 16px;
+    margin-right: 4px;
 }
