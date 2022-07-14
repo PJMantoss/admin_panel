@@ -16,3 +16,9 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+.widgetLgBtn{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
