@@ -24,7 +24,11 @@ function WidgetSm() {
             </li>
 
             <li className='widgetSmListItem'>
-                <img src='https://i.ibb.co/PDtNL1P/black-business-woman.png' alt='user' className='widgetSmImg' />
+                <img 
+                    src='https://i.ibb.co/PDtNL1P/black-business-woman.png' 
+                    alt='user' 
+                    className='widgetSmImg' 
+                />
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Karen David</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
@@ -36,7 +40,11 @@ function WidgetSm() {
             </li>
 
             <li className='widgetSmListItem'>
-                <img src='https://i.ibb.co/PDtNL1P/black-business-woman.png' alt='user' className='widgetSmImg' />
+                <img 
+                    src='https://i.ibb.co/PDtNL1P/black-business-woman.png' 
+                    alt='user' 
+                    className='widgetSmImg' 
+                />
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Isaiah Mugana</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
@@ -48,7 +56,11 @@ function WidgetSm() {
             </li>
 
             <li className='widgetSmListItem'>
-                <img src='https://i.ibb.co/PDtNL1P/black-business-woman.png' alt='user' className='widgetSmImg' />
+                <img 
+                    src='https://i.ibb.co/PDtNL1P/black-business-woman.png' 
+                    alt='user' 
+                    className='widgetSmImg' 
+                />
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Mopi David</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
@@ -60,7 +72,11 @@ function WidgetSm() {
             </li>
 
             <li className='widgetSmListItem'>
-                <img src='https://i.ibb.co/PDtNL1P/black-business-woman.png' alt='user' className='widgetSmImg' />
+                <img 
+                    src='https://i.ibb.co/PDtNL1P/black-business-woman.png' 
+                    alt='user' 
+                    className='widgetSmImg' 
+                />
                 <div className='widgetSmUser'>
                     <span className='widgetSmUsername'>Abdiel David</span>
                     <span className='widgetSmUserTitle'>Software Engineer</span>
