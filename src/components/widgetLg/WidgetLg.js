@@ -19,7 +19,15 @@ function WidgetLg() {
         </thead>
         <tbody>
           <tr className='widgetLgTr'>
-            <td className='widgetLgTd'></td>
+            <td className='widgetLgUser'>
+              <img 
+                src='https://i.ibb.co/3dsTK7L/head-png-1000.png' 
+                alt='user' 
+                className='widgetLgImg' 
+              />
+              <span className='widgetLgUsername'>Kanye West</span>
+            </td>
+            <td></td>
           </tr>
         </tbody>
       </table>
