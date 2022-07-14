@@ -32,7 +32,7 @@ const columns = [
             return(
                 <>
                     <button className='userListEdit'>Edit</button>
-                    <DeleteOutlinedIcon />
+                    <DeleteOutlinedIcon className='userListDelete' />
                 </>
             )
         }
