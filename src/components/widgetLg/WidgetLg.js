@@ -2,6 +2,15 @@ import React from 'react';
 import './widgetLg.css';
 
 function WidgetLg() {
+
+  const Button = ({type}) => {
+    return (
+        <button className={'widgetLgBtn' + type}>
+          {type}
+        </button>
+      )
+  };
+
   return (
     <div className='widgetLg'>
       <h3 className='widgetLgTitle'>
