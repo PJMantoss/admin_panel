@@ -3,8 +3,15 @@ import { DataGrid } from '@mui/x-data-grid';
 import './userList.css';
 
 const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'username', headerName: 'Username', width: 130 },
+    { field: 'id', headerName: 'ID', width: 90 },
+    { field: 'user', headerName: 'User', width: 200, renderCell: (params) => {
+        return(
+            <div>
+                <img src={params.row.avatar} alt='' />
+                {params.row.username}
+            </div>
+        )
+    } },
     { field: 'email', headerName: 'Email', width: 130 },
     {
       field: 'status',
