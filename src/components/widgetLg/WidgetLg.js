@@ -17,7 +17,11 @@ function WidgetLg() {
             <th className='widgetLgTh'>Status</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+          <tr className='widgetLgTr'>
+            <td className='widgetLgTd'></td>
+          </tr>
+        </tbody>
       </table>
     </div>
   )
