@@ -34,9 +34,14 @@ const columns = [
             return(
                 <>
                     <Link to={'/user/'+params.row.id}>
-                        <button className='userListEdit'>Edit</button>
+                        <button className='userListEdit'>
+                            Edit
+                        </button>
                     </Link>
-                    <DeleteOutlinedIcon className='userListDelete' />
+                    <DeleteOutlinedIcon 
+                        className='userListDelete' 
+                        onClick={() => handleDelete(params.row.id)} 
+                    />
                 </>
             )
         }
@@ -45,7 +50,7 @@ const columns = [
 
 function UserList() {
     const [data, setData] = useState(userRows);
-    
+
   return (
     <div className='userList'>
         <DataGrid
