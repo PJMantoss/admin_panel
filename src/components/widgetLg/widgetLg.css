@@ -22,3 +22,18 @@
     border: none;
     border-radius: 10px;
 }
+
+.widgetLgBtn.Approved{
+    background: #e5faf2;
+    color: #3bb077;
+}
+
+.widgetLgBtn.Declined{
+    background: #fff0f1;
+    color: #d95087;
+}
+
+.widgetLgBtn.Pending{
+    background: #ebf1fe;
+    color: #3bb077;
+}
