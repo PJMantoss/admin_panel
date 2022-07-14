@@ -115,6 +115,7 @@ function UserList() {
             pageSize={5}
             rowsPerPageOptions={[5]}
             checkboxSelection
+            disableSelectionOnClick
         />
     </div>
   )
