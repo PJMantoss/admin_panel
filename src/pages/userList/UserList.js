@@ -1,5 +1,6 @@
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
+import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import './userList.css';
 
 const columns = [
@@ -29,7 +30,10 @@ const columns = [
         width: 150,
         renderCell: (params) => {
             return(
-                <button className='userListEdit'>Edit</button>
+                <>
+                    <button className='userListEdit'>Edit</button>
+                    <DeleteOutlinedIcon />
+                </>
             )
         }
     },
