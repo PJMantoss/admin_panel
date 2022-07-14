@@ -1,4 +1,5 @@
 import React from 'react';
+import { DataGrid } from '@mui/x-data-grid';
 import './userList.css';
 
 function UserList() {
