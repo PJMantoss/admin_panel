@@ -56,6 +56,6 @@
 }
 
 .widgetBtnIcon{
-    width: 16px;
+    width: 16px !important;
     margin-right: 4px;
 }
