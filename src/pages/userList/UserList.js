@@ -13,7 +13,7 @@ const columns = [
     },
     {
         field: 'transaction',
-        headerName: 'Transaction Volum',
+        headerName: 'Transaction Volume',
         width: 150,
       },
   ];
