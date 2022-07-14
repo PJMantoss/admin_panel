@@ -8,7 +8,7 @@
 
 .widgetSmTitle {
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .widgetSmList {
@@ -37,7 +37,7 @@
 }
 
 .widgetSmUsername {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .widgetSmUserTitle {
