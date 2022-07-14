@@ -44,10 +44,11 @@ const columns = [
   ];
 
 function UserList() {
+    const [data, setData] = useState(userRows);
   return (
     <div className='userList'>
         <DataGrid
-            rows={userRows}
+            rows={data}
             columns={columns}
             pageSize={8}
             rowsPerPageOptions={[5]}
