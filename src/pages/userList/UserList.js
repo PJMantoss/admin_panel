@@ -104,6 +104,22 @@ const columns = [
         status: 'active',
         transaction: '$230' 
     },
+    { 
+        id: 9, 
+        username: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 10, 
+        username: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
   ];
 
 function UserList() {
