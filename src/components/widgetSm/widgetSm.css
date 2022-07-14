@@ -29,3 +29,9 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+.widgetSmUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
