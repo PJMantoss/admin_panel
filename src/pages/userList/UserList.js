@@ -33,7 +33,9 @@ const columns = [
         renderCell: (params) => {
             return(
                 <>
-                    <button className='userListEdit'>Edit</button>
+                    <Link to={'/user/'+params.row.id}>
+                        <button className='userListEdit'>Edit</button>
+                    </Link>
                     <DeleteOutlinedIcon className='userListDelete' />
                 </>
             )
