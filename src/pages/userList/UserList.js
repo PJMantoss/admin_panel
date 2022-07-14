@@ -14,7 +14,8 @@ const columns = [
                 {params.row.username}
             </div>
         )
-    } },
+    } 
+    },
     { field: 'email', headerName: 'Email', width: 130 },
     {
       field: 'status',
