@@ -24,6 +24,10 @@
     align-items: center;
 }
 
+.widgetLgUsername{
+    font-weight: 600;
+}
+
 .widgetLgImg{
     width: 40px;
     height: 40px;
