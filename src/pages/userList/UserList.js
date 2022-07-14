@@ -22,7 +22,17 @@ const columns = [
         field: 'transaction',
         headerName: 'Transaction Volume',
         width: 150,
-      },
+    },
+    {
+        field: 'action',
+        headerName: 'Action',
+        width: 150,
+        renderCell: (params) => {
+            return(
+                <button className='userListEdit'>Edit</button>
+            )
+        }
+    },
   ];
   
   const rows = [
