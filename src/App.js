@@ -2,7 +2,7 @@ import TopBar from './components/topbar/TopBar';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './pages/home/Home';
 import UserList from './pages/userList/UserList';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './app.css';
 
 function App() {
