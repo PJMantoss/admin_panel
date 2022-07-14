@@ -1,6 +1,7 @@
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
+import { userRows } from '../../dummyData';
 import './userList.css';
 
 const columns = [
@@ -43,7 +44,7 @@ function UserList() {
   return (
     <div className='userList'>
         <DataGrid
-            rows={rows}
+            rows={userRows}
             columns={columns}
             pageSize={5}
             rowsPerPageOptions={[5]}
