@@ -52,8 +52,8 @@ function WidgetLg() {
               />
               <span className='widgetLgUsername'>Kanye West</span>
             </td>
-            <td className='widgetLgDate'>7 Jul, 2022</td>
-            <td className='widgetLgAmt'>$2000</td>
+            <td className='widgetLgDate'>5 Jul, 2022</td>
+            <td className='widgetLgAmt'>$1800</td>
             <td className='widgetLgStatus'>
               <Button type='Declined' />
             </td>
@@ -68,8 +68,8 @@ function WidgetLg() {
               />
               <span className='widgetLgUsername'>Kanye West</span>
             </td>
-            <td className='widgetLgDate'>7 Jul, 2022</td>
-            <td className='widgetLgAmt'>$2000</td>
+            <td className='widgetLgDate'>3 Jul, 2022</td>
+            <td className='widgetLgAmt'>$2100</td>
             <td className='widgetLgStatus'>
               <Button type='Approved' />
             </td>
@@ -84,8 +84,8 @@ function WidgetLg() {
               />
               <span className='widgetLgUsername'>Kanye West</span>
             </td>
-            <td className='widgetLgDate'>7 Jul, 2022</td>
-            <td className='widgetLgAmt'>$2000</td>
+            <td className='widgetLgDate'>2 Jul, 2022</td>
+            <td className='widgetLgAmt'>$2700</td>
             <td className='widgetLgStatus'>
               <Button type='Pending' />
             </td>
