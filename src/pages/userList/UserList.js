@@ -46,7 +46,7 @@ function UserList() {
         <DataGrid
             rows={userRows}
             columns={columns}
-            pageSize={5}
+            pageSize={8}
             rowsPerPageOptions={[5]}
             checkboxSelection
             disableSelectionOnClick
