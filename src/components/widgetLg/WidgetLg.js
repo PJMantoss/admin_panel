@@ -42,6 +42,54 @@ function WidgetLg() {
               <Button type='Approved' />
             </td>
           </tr>
+
+          <tr className='widgetLgTr'>
+            <td className='widgetLgUser'>
+              <img 
+                src='https://i.ibb.co/3dsTK7L/head-png-1000.png' 
+                alt='user' 
+                className='widgetLgImg' 
+              />
+              <span className='widgetLgUsername'>Kanye West</span>
+            </td>
+            <td className='widgetLgDate'>7 Jul, 2022</td>
+            <td className='widgetLgAmt'>$2000</td>
+            <td className='widgetLgStatus'>
+              <Button type='Declined' />
+            </td>
+          </tr>
+
+          <tr className='widgetLgTr'>
+            <td className='widgetLgUser'>
+              <img 
+                src='https://i.ibb.co/3dsTK7L/head-png-1000.png' 
+                alt='user' 
+                className='widgetLgImg' 
+              />
+              <span className='widgetLgUsername'>Kanye West</span>
+            </td>
+            <td className='widgetLgDate'>7 Jul, 2022</td>
+            <td className='widgetLgAmt'>$2000</td>
+            <td className='widgetLgStatus'>
+              <Button type='Approved' />
+            </td>
+          </tr>
+
+          <tr className='widgetLgTr'>
+            <td className='widgetLgUser'>
+              <img 
+                src='https://i.ibb.co/3dsTK7L/head-png-1000.png' 
+                alt='user' 
+                className='widgetLgImg' 
+              />
+              <span className='widgetLgUsername'>Kanye West</span>
+            </td>
+            <td className='widgetLgDate'>7 Jul, 2022</td>
+            <td className='widgetLgAmt'>$2000</td>
+            <td className='widgetLgStatus'>
+              <Button type='Pending' />
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
