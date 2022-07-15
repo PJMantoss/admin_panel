@@ -3,7 +3,11 @@ import './user.css';
 
 function User() {
   return (
-    <div>User</div>
+    <div className='user'>
+        <div className='userTitleContainer'>
+            <h1 className='userTitle'>User</h1>
+        </div>
+    </div>
   )
 }
 
