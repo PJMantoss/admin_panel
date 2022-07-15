@@ -1,5 +1,11 @@
 import React from 'react';
-import {PermIdentity} from '@mui/icons-material';
+import {
+    PermIdentity,
+    CalendarToday,
+    PhoneAndroid,
+    MailOutline,
+    LocationOnOutlined
+} from '@mui/icons-material';
 import './user.css';
 
 function User() {
@@ -35,22 +41,22 @@ function User() {
                     </div>
 
                     <div className='userShowInfo'>
-                        <PermIdentity className='userShowIcon' />
+                        <CalendarToday className='userShowIcon' />
                         <span className='userShowInfoTitle'>08 Oct,1990</span>
                     </div>
 
                     <div className='userShowInfo'>
-                        <PermIdentity className='userShowIcon' />
+                        <MailOutline className='userShowIcon' />
                         <span className='userShowInfoTitle'>jonsnow2000@gmail.com</span>
                     </div>
 
                     <div className='userShowInfo'>
-                        <PermIdentity className='userShowIcon' />
+                        <PhoneAndroid className='userShowIcon' />
                         <span className='userShowInfoTitle'>+1 888666444</span>
                     </div>
 
                     <div className='userShowInfo'>
-                        <PermIdentity className='userShowIcon' />
+                        <LocationOnOutlined className='userShowIcon' />
                         <span className='userShowInfoTitle'>6 Baldwin str, Atlanta</span>
                     </div>
                 </div>
