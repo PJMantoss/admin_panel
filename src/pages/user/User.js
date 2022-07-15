@@ -28,8 +28,9 @@ function User() {
                     </div>
                 </div>
                 <div className='userShowBottom'>
-                    <span>Account Details</span>
-                    < />
+                    <span className='userShowTitle'>Account Details</span>
+                    <PermIdentityIcon className='userShowIcon' />
+                    <span className='userShowInfoTitle'>jonsnow2000</span>
                 </div>
             </div>
             <div className='userUpdate'>Update</div>
