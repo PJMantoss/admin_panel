@@ -42,6 +42,7 @@
 .userShowTop{
     display: flex;
     align-items: center;
+    padding: 10px 0;
 }
 
 .userShowImg{
@@ -49,4 +50,9 @@
     height: 40px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.userShowTopTitle{
+    display: flex;
+    flex-direction: column;
 }

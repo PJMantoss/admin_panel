@@ -17,8 +17,14 @@ function User() {
                         alt='user-profile-image' 
                         className='userShowImg' 
                     />
-                    <span className='userShowUsername'>Jon Snow</span>
-                    <span className='userShowUserTitle'>Software Engineer</span>
+                    <div className='userShowTopTitle'>
+                        <span className='userShowUsername'>
+                            Jon Snow
+                        </span>
+                        <span className='userShowUserTitle'>
+                            Software Engineer
+                        </span>
+                    </div>
                 </div>
                 <div className='userShowBottom'></div>
             </div>
