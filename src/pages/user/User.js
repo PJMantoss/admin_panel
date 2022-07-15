@@ -10,7 +10,18 @@ function User() {
         </div>
 
         <div className='userContainer'>
-            <div className='userShow'>Show</div>
+            <div className='userShow'>
+                <div className='userShowTop'>
+                    <img 
+                        src='https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg' 
+                        alt='user-profile-image' 
+                        className='userShowImg' 
+                    />
+                    <span className='userShowUsername'></span>
+                    <span className='userShowUserTitle'></span>
+                </div>
+                <div className='userShowBottom'></div>
+            </div>
             <div className='userUpdate'>Update</div>
         </div>
     </div>
