@@ -1,4 +1,5 @@
 import React from 'react';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import './user.css';
 
 function User() {
@@ -26,7 +27,10 @@ function User() {
                         </span>
                     </div>
                 </div>
-                <div className='userShowBottom'></div>
+                <div className='userShowBottom'>
+                    <span>Account Details</span>
+                    < />
+                </div>
             </div>
             <div className='userUpdate'>Update</div>
         </div>
