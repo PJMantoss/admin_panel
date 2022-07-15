@@ -51,7 +51,9 @@ const columns = [
 
 function UserList() {
     const [data, setData] = useState(userRows);
-
+    
+    const handleDelete = () => {};
+    
   return (
     <div className='userList'>
         <DataGrid
