@@ -33,6 +33,26 @@ function User() {
                         <PermIdentity className='userShowIcon' />
                         <span className='userShowInfoTitle'>jonsnow2000</span>
                     </div>
+
+                    <div className='userShowInfo'>
+                        <PermIdentity className='userShowIcon' />
+                        <span className='userShowInfoTitle'>08 Oct,1990</span>
+                    </div>
+
+                    <div className='userShowInfo'>
+                        <PermIdentity className='userShowIcon' />
+                        <span className='userShowInfoTitle'>jonsnow2000@gmail.com</span>
+                    </div>
+
+                    <div className='userShowInfo'>
+                        <PermIdentity className='userShowIcon' />
+                        <span className='userShowInfoTitle'>+1 888666444</span>
+                    </div>
+
+                    <div className='userShowInfo'>
+                        <PermIdentity className='userShowIcon' />
+                        <span className='userShowInfoTitle'>6 Baldwin str, Atlanta</span>
+                    </div>
                 </div>
             </div>
             <div className='userUpdate'>Update</div>
