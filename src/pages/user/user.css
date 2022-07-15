@@ -25,3 +25,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.userShow{
+    flex: 1;
+    -webkit-box-shadow: 1px 1px 5px 1px #CCCCCC; 
+    box-shadow: 1px 1px 5px 1px #CCCCCC;
+}
+
+.userUpdate{
+    flex: 2;
+    -webkit-box-shadow: 1px 1px 5px 1px #CCCCCC; 
+    box-shadow: 1px 1px 5px 1px #CCCCCC;
+}
