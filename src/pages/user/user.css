@@ -11,5 +11,9 @@
 
 .userAddButton{
     width: 80px;
-    
+    background: rgb(44, 99, 44);
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
 }
