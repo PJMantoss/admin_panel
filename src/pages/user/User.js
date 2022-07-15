@@ -34,7 +34,7 @@ function User() {
                     </div>
                 </div>
                 <div className='userShowBottom'>
-                    <span className='userShowTitle'>Account Details</span>
+                    <span className='userShowTitle'>Account Info</span>
                     <div className='userShowInfo'>
                         <PermIdentity className='userShowIcon' />
                         <span className='userShowInfoTitle'>jonsnow2000</span>
@@ -44,6 +44,8 @@ function User() {
                         <CalendarToday className='userShowIcon' />
                         <span className='userShowInfoTitle'>08 Oct,1990</span>
                     </div>
+
+                    <span className='userShowTitle'>Contact</span>
 
                     <div className='userShowInfo'>
                         <MailOutline className='userShowIcon' />
