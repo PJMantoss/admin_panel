@@ -112,7 +112,17 @@ function User() {
                             />
                         </div>
                     </div>
-                    <div className='userUpdateRight'></div>
+                    <div className='userUpdateRight'>
+                        <div className='userUpdateUpload'>
+                            <img 
+                                src='https://i.ibb.co/kJX1mqL/red-men-s-tshirt-600x667.jpg' 
+                                alt='user image' 
+                                className='userUpdateImage' 
+                            />
+                            <label htmlFor='file'></label>
+                            <input type='file' />
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
