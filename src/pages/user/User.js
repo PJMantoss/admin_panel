@@ -75,6 +75,15 @@ function User() {
                                 className='userUpdateInput' 
                             />
                         </div>
+
+                        <div className='userUpdateItem'>
+                            <label>Username</label>
+                            <input 
+                                type='text' 
+                                placeholder='jonsnow2000' 
+                                className='userUpdateInput' 
+                            />
+                        </div>
                     </div>
                     <div className='userUpdateRight'></div>
                 </form>
