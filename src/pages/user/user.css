@@ -95,10 +95,25 @@
     font-weight: 600;
 }
 
+.userUpdate{
+    padding: 10px;
+}
+
 .userUpdateForm{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem label {
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .userUpdateImage{
