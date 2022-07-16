@@ -90,6 +90,11 @@
     margin-left: 10px;
 }
 
+.userUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .userUpdateForm{
     display: flex;
     justify-content: space-between;
