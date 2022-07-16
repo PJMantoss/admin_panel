@@ -91,6 +91,12 @@
     margin-left: 10px;
 }
 
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 .userUpdateImage{
     width: 100px;
     height: 100px;
