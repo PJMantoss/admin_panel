@@ -77,10 +77,28 @@ function User() {
                         </div>
 
                         <div className='userUpdateItem'>
-                            <label>Username</label>
+                            <label>Full Name</label>
                             <input 
                                 type='text' 
-                                placeholder='jonsnow2000' 
+                                placeholder='Jon Snow' 
+                                className='userUpdateInput' 
+                            />
+                        </div>
+
+                        <div className='userUpdateItem'>
+                            <label>E-Mail</label>
+                            <input 
+                                type='email' 
+                                placeholder='jonsnow2000@gmail.com' 
+                                className='userUpdateInput' 
+                            />
+                        </div>
+
+                        <div className='userUpdateItem'>
+                            <label>Phone Number</label>
+                            <input 
+                                type='number' 
+                                placeholder='1 888666444' 
                                 className='userUpdateInput' 
                             />
                         </div>
