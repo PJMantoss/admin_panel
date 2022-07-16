@@ -126,7 +126,7 @@ function User() {
                             <input 
                                 type='file' 
                                 id='file'
-                                style={{display: "none"}}
+                                style={{display: 'none'}}
                             />
                         </div>
                         <button className='userUpdateButton'>
