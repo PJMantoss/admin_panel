@@ -63,7 +63,10 @@ function User() {
                     </div>
                 </div>
             </div>
-            <div className='userUpdate'>Update</div>
+            <div className='userUpdate'>
+                <div className='userUpdateTitle'>Edit</div>
+                <form className='userUpdateForm'></form>
+            </div>
         </div>
     </div>
   )
