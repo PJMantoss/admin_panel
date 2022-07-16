@@ -136,3 +136,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.userUpdateUpload{
+    display: inherit;
+    align-items: center;
+}
