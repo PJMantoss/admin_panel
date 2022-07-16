@@ -129,6 +129,9 @@ function User() {
                                 style={{display: "none"}}
                             />
                         </div>
+                        <button className='userUpdateButton'>
+                            Update
+                        </button>
                     </div>
                 </form>
             </div>
