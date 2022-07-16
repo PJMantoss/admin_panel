@@ -126,6 +126,7 @@ function User() {
                             <input 
                                 type='file' 
                                 id='file'
+                                style={{display: "none"}}
                             />
                         </div>
                     </div>
