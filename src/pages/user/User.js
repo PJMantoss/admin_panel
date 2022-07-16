@@ -4,7 +4,8 @@ import {
     CalendarToday,
     PhoneAndroid,
     MailOutline,
-    LocationOnOutlined
+    LocationOnOutlined,
+    Publish
 } from '@mui/icons-material';
 import './user.css';
 
@@ -119,8 +120,13 @@ function User() {
                                 alt='user image' 
                                 className='userUpdateImage' 
                             />
-                            <label htmlFor='file'></label>
-                            <input type='file' />
+                            <label htmlFor='file'>
+                                <Publish />
+                            </label>
+                            <input 
+                                type='file' 
+                                id='file'
+                            />
                         </div>
                     </div>
                 </form>
