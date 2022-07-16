@@ -70,9 +70,9 @@ function User() {
                         <div className='userUpdateItem'>
                             <label>Username</label>
                             <input 
-                                type='' 
-                                placeholder='' 
-                                className='' 
+                                type='text' 
+                                placeholder='jonsnow2000' 
+                                className='userUpdateInput' 
                             />
                         </div>
                     </div>
