@@ -16,7 +16,7 @@ function ProductList() {
         { field: 'id', headerName: 'ID', width: 90 },
         { field: 'product', headerName: 'Product', width: 200, renderCell: (params) => {
             return(
-                <div className='productListProduct'>
+                <div className='productListItem'>
 P                  <img className='productListImg' src={params.row.img} alt='' />
                     {params.row.name}
                 </div>
@@ -30,8 +30,8 @@ P                  <img className='productListImg' src={params.row.img} alt='' /
           width: 90,
         },
         {
-            field: 'transaction',
-            headerName: 'Transaction Volume',
+            field: 'price',
+            headerName: 'Price',
             width: 150,
         },
         {
