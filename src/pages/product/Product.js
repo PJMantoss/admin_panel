@@ -8,7 +8,9 @@ function Product() {
         <div className='productTitleContainer'>
             <h1 className='productTitle'>Product</h1>
             <Link to='newproduct'>
-                <button className='productAddBtn'>Create</button>
+                <button className='productAddBtn'>
+                    Create
+                </button>
             </Link>
         </div>
     </div>
