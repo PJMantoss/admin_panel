@@ -131,3 +131,86 @@ export const userData = [
         transaction: '$230' 
     },
   ];
+
+  export const productRows = [
+    { 
+        id: 1, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 2, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 3, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 4, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 5, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 6, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 7, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 8, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 9, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+    { 
+        id: 10, 
+        name: 'Jon Snow', 
+        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
+        email: 'jon@gmail.com',
+        status: 'active',
+        transaction: '$230' 
+    },
+  ];
