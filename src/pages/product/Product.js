@@ -1,9 +1,17 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './product.css';
 
 function Product() {
   return (
-    <div className='product'>Product</div>
+    <div className='product'>
+        <div className='productTitleContainer'>
+            <h1 className='productTitle'>Product</h1>
+            <Link>
+                <button className='productAddBtn'>Create</button>
+            </Link>
+        </div>
+    </div>
   )
 }
 
