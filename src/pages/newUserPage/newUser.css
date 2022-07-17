@@ -40,5 +40,15 @@
 
 .newUserSelect{
     height: 40px;
-    border-radius: 5px;
+    border-radius: 6px;
+}
+
+.newUserSelectBtn{
+    border: 0;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    background: darkgreen;
+    color: white;
+    cursor: pointer;
 }
