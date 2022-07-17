@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import { productRows } from '../../dummyData';
@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import './productList.css';
 
 function ProductList() {
+    const [data, setData] = useState(productRows);
   return (
     <div className='productList'>
         <DataGrid

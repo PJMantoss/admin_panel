@@ -54,7 +54,7 @@ export const userData = [
         id: 1, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -62,7 +62,7 @@ export const userData = [
         id: 2, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -70,7 +70,7 @@ export const userData = [
         id: 3, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -78,7 +78,7 @@ export const userData = [
         id: 4, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -86,7 +86,7 @@ export const userData = [
         id: 5, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -94,7 +94,7 @@ export const userData = [
         id: 6, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -102,7 +102,7 @@ export const userData = [
         id: 7, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -110,7 +110,7 @@ export const userData = [
         id: 8, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -118,7 +118,7 @@ export const userData = [
         id: 9, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -126,7 +126,7 @@ export const userData = [
         id: 10, 
         username: 'Jon Snow', 
         avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        email: 120,
         status: 'active',
         transaction: '$230' 
     },
@@ -135,82 +135,82 @@ export const userData = [
   export const productRows = [
     { 
         id: 1, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 2, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 3, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 4, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 5, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 6, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 7, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 8, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 9, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
     { 
         id: 10, 
-        name: 'Jon Snow', 
-        avatar: 'https://i.ibb.co/jHcM2gw/yellow-men-s-tshirt.jpg', 
-        email: 'jon@gmail.com',
+        name: 'Green Jacket', 
+        img: 'https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg', 
+        stock: 120,
         status: 'active',
-        transaction: '$230' 
+        price: '$230' 
     },
   ];
