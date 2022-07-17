@@ -45,15 +45,19 @@ function Sidebar() {
         <div className='sidebarMenu'>
           <h3 className='sidebarTitle'>Quick Menu</h3>
           <ul className='sidebarList'>
-            <li className='sidebarListItem active'>
-              <PersonOutline className='sidebarListIcon' />
-              Users
-            </li>
+            <Link to='/users' className='link'>
+              <li className='sidebarListItem active'>
+                <PersonOutline className='sidebarListIcon' />
+                Users
+              </li>
+            </Link>
 
-            <li className='sidebarListItem'>
-              <Inventory2Outlined className='sidebarListIcon' />
-              Products
-            </li>
+            <Link to='/products' className='link'>
+              <li className='sidebarListItem'>
+                <Inventory2Outlined className='sidebarListIcon' />
+                Products
+              </li>
+            </Link>
 
             <li className='sidebarListItem'>
               <ReceiptLong className='sidebarListIcon' />
