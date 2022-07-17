@@ -82,6 +82,14 @@ function NewUser() {
             <label for='others'>Others</label>
           </div>
         </div>
+
+        <div className='newUserItem'>
+          <label>Active</label>
+          <select className='newUserSelect'>
+            <option value='yes'>Yes</option>
+            <option value='no'>No</option>
+          </select>
+        </div>
       </form>
     </div>
   )
