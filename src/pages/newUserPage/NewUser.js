@@ -31,6 +31,14 @@ function NewUser() {
         </div>
 
         <div className='newUserItem'>
+          <label>Password</label>
+          <input 
+            type='password' 
+            placeholder='Password' 
+          />
+        </div>
+
+        <div className='newUserItem'>
           <label>Phone Number</label>
           <input 
             type='number' 
