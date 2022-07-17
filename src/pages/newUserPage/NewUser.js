@@ -85,7 +85,11 @@ function NewUser() {
 
         <div className='newUserItem'>
           <label>Active</label>
-          <select className='newUserSelect'>
+          <select 
+            className='newUserSelect' 
+            name='active' 
+            id='active'
+          >
             <option value='yes'>Yes</option>
             <option value='no'>No</option>
           </select>
