@@ -27,3 +27,9 @@
     border-radius: 6px;
     border: 1px solid gray;
 }
+
+.newUserGender {
+    margin: 10px;
+    font-size: 16px;
+    color: #555;
+}
