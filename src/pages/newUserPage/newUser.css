@@ -14,9 +14,16 @@
     margin: 10px 20px 0 0;
 }
 
-.newUserItem label {
+.newUserItem > label {
     font-size: 14px;
     font-weight: 600;
     color: rgb(151, 150, 150);
     margin-bottom: 10px;
+}
+
+.newUserItem > input {
+    height: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
 }
