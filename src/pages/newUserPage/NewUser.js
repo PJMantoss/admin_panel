@@ -56,29 +56,31 @@ function NewUser() {
 
         <div className='newUserItem'>
           <label>Gender</label>
-          <input 
-            type='radio' 
-            name='gender' 
-            value='male'
-            id='male'
-          />
-          <label for='male'>Male</label>
+          <div className='newUserGender'>
+            <input 
+              type='radio' 
+              name='gender' 
+              value='male'
+              id='male'
+            />
+            <label for='male'>Male</label>
 
-          <input 
-            type='radio' 
-            name='gender' 
-            value='female'
-            id='female'
-          />
-          <label for='female'>Female</label>
+            <input 
+              type='radio' 
+              name='gender' 
+              value='female'
+              id='female'
+            />
+            <label for='female'>Female</label>
 
-          <input 
-            type='radio' 
-            name='gender' 
-            value='others'
-            id='others'
-          />
-          <label for='others'>Others</label>
+            <input 
+              type='radio' 
+              name='gender' 
+              value='others'
+              id='others'
+            />
+            <label for='others'>Others</label>
+          </div>
         </div>
       </form>
     </div>
