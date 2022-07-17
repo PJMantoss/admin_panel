@@ -13,6 +13,11 @@ function Product() {
                 </button>
             </Link>
         </div>
+        <div className='productTop'>
+            <div className='productTopLeft'></div>
+            <div className='productTopRight'></div>
+        </div>
+        <div className='productBottom'></div>
     </div>
   )
 }
