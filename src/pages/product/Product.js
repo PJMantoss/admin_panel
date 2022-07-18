@@ -82,7 +82,7 @@ function Product() {
                 <div className='productFormRight'>
                     <div className='productUpload'>
                         <img 
-                            src='' 
+                            src='https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg' 
                             alt='' 
                             className='productUploadImg' 
                         />
