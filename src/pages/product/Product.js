@@ -32,7 +32,11 @@ function Product() {
                     />
                     <span className='productName'>Green Jacket</span>
                 </div>
-                <div className='productInfoBottom'></div>
+                <div className='productInfoBottom'>
+                    <div className='productInfoItem'>
+                        <span className='productInfoItem'></span>
+                    </div>
+                </div>
             </div>
         </div>
         <div className='productBottom'></div>
