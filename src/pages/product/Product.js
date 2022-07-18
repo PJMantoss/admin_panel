@@ -65,7 +65,11 @@ function Product() {
                         <option value='yes'>Yes</option>
                         <option value='no'>No</option>
                     </select>
-                    
+                    <label>Active</label>
+                    <select name='active' id='active'>
+                        <option value='yes'>Yes</option>
+                        <option value='no'>No</option>
+                    </select>
                 </div>
                 <div className='productFormRight'></div>
             </form>
