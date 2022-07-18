@@ -19,3 +19,12 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+.productTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productTopLeft, .productTopRight {
+    flex: 1;
+}
