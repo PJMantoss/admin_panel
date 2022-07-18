@@ -29,9 +29,29 @@
     flex: 1;
 }
 
-.productTopLeft{
+.productTopRight{
     padding: 20px;
     margin: 20px;
     -webkit-box-shadow: 1px 1px 5px 1px #CCCCCC; 
     box-shadow: 1px 1px 5px 1px #CCCCCC;
+}
+
+.productInfoTop{
+    display: flex;
+    align-items: center;
+}
+
+.productImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.productInfoTop .productName {
+    font-weight: 600;
+}
+
+.productInfoBottom{
+    margin-top: 10px;
 }
