@@ -60,8 +60,8 @@ function Product() {
                 <div className='productFormLeft'>
                     <label>Product Name</label>
                     <input type='text' placeholder='Jacket' />
-                    <label></label>
-                    <select></select>
+                    <label>In Stock</label>
+                    <select name='inStock' id='idStock'></select>
                 </div>
                 <div className='productFormRight'></div>
             </form>
