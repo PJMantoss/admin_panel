@@ -28,3 +28,10 @@
 .productTopLeft, .productTopRight {
     flex: 1;
 }
+
+.productTopLeft{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 1px 1px 5px 1px #CCCCCC; 
+    box-shadow: 1px 1px 5px 1px #CCCCCC;
+}
