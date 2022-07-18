@@ -23,7 +23,16 @@ function Product() {
                     dataKey='Sales' 
                 />
             </div>
-            <div className='productTopRight'></div>
+            <div className='productTopRight'>
+                <div className='productInfoTop'>
+                    <img 
+                        src='https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg' 
+                        alt='green jacket' 
+                        className='' 
+                    />
+                </div>
+                <div className='productInfoBottom'></div>
+            </div>
         </div>
         <div className='productBottom'></div>
     </div>
