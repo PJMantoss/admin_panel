@@ -19,8 +19,8 @@ function Product() {
             <div className='productTopLeft'>
                 <Chart 
                     data={productData} 
-                    title='User Analytics' 
-                    dataKey='Active User' 
+                    title='Sales Performance' 
+                    dataKey='Sales' 
                 />
             </div>
             <div className='productTopRight'></div>
