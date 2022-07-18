@@ -86,7 +86,7 @@ function Product() {
                             alt='' 
                             className='productUploadImg' 
                         />
-                        <label htmlFor='file'>
+                        <label for='file'>
                             <Publish />
                         </label>
                         <input 
