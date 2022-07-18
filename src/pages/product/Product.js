@@ -34,23 +34,23 @@ function Product() {
                 </div>
                 <div className='productInfoBottom'>
                     <div className='productInfoItem'>
-                        <span className='productInfoKey'></span>
-                        <span className='productInfoValue'></span>
+                        <span className='productInfoKey'>id:</span>
+                        <span className='productInfoValue'>123</span>
                     </div>
 
                     <div className='productInfoItem'>
-                        <span className='productInfoKey'></span>
-                        <span className='productInfoValue'></span>
+                        <span className='productInfoKey'>sales:</span>
+                        <span className='productInfoValue'>3200</span>
                     </div>
 
                     <div className='productInfoItem'>
-                        <span className='productInfoKey'></span>
-                        <span className='productInfoValue'></span>
+                        <span className='productInfoKey'>active:</span>
+                        <span className='productInfoValue'>yes</span>
                     </div>
 
                     <div className='productInfoItem'>
-                        <span className='productInfoKey'></span>
-                        <span className='productInfoValue'></span>
+                        <span className='productInfoKey'>inStock</span>
+                        <span className='productInfoValue'>no</span>
                     </div>
                 </div>
             </div>
