@@ -84,12 +84,12 @@
     flex-direction: column;
 }
 
-.productFormLeft label{
+.productFormLeft > label{
     margin-bottom: 10px;
     color: gray;
 }
 
-.productFormLeft input {
+.productFormLeft > input {
     margin-bottom: 10px;
     padding: 5px;
     border-bottom: 1px solid gray;
