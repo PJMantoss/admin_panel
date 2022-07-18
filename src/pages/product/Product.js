@@ -28,8 +28,9 @@ function Product() {
                     <img 
                         src='https://i.ibb.co/G5P4rj2/Men-Green-Leather-Biker-Jacket.jpg' 
                         alt='green jacket' 
-                        className='' 
+                        className='productImg' 
                     />
+                    <span className='productName'>Green Jacket</span>
                 </div>
                 <div className='productInfoBottom'></div>
             </div>
