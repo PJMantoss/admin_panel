@@ -61,7 +61,11 @@ function Product() {
                     <label>Product Name</label>
                     <input type='text' placeholder='Jacket' />
                     <label>In Stock</label>
-                    <select name='inStock' id='idStock'></select>
+                    <select name='inStock' id='idStock'>
+                        <option value='yes'>Yes</option>
+                        <option value='no'>No</option>
+                    </select>
+                    
                 </div>
                 <div className='productFormRight'></div>
             </form>
