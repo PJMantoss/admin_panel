@@ -1,5 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Chart from '../../components/chart/Chart';
+
 import './product.css';
 
 function Product() {
