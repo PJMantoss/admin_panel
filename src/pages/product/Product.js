@@ -55,7 +55,12 @@ function Product() {
                 </div>
             </div>
         </div>
-        <div className='productBottom'></div>
+        <div className='productBottom'>
+            <form className='productForm'>
+                <div className='productFormLeft'></div>
+                <div className='productFormRight'></div>
+            </form>
+        </div>
     </div>
   )
 }

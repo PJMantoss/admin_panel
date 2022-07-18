@@ -62,3 +62,7 @@
     justify-content: space-between;
     width: 150px;
 }
+
+.productInfoValue{
+    font-weight: 300;
+}
