@@ -2,6 +2,14 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Chart from '../../components/chart/Chart';
 import {productData} from '../../dummyData';
+import {
+    PermIdentity,
+    CalendarToday,
+    PhoneAndroid,
+    MailOutline,
+    LocationOnOutlined,
+    Publish
+} from '@mui/icons-material';
 import './product.css';
 
 function Product() {
