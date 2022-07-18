@@ -71,7 +71,23 @@ function Product() {
                         <option value='no'>No</option>
                     </select>
                 </div>
-                <div className='productFormRight'></div>
+                <div className='productFormRight'>
+                    <div className='productUpload'>
+                        <img 
+                            src='' 
+                            alt='' 
+                            className='productUploadImg' 
+                        />
+                        <label htmlFor='file'>
+                            <Publish />
+                        </label>
+                        <input 
+                            type='file' 
+                            id='file'
+                            style={{display: 'none'}}
+                        />
+                    </div>
+                </div>
             </form>
         </div>
     </div>
