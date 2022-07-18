@@ -57,7 +57,12 @@ function Product() {
         </div>
         <div className='productBottom'>
             <form className='productForm'>
-                <div className='productFormLeft'></div>
+                <div className='productFormLeft'>
+                    <label>Product Name</label>
+                    <input type='text' placeholder='Jacket' />
+                    <label></label>
+                    <select></select>
+                </div>
                 <div className='productFormRight'></div>
             </form>
         </div>
