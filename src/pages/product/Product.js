@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Chart from '../../components/chart/Chart';
-
+import {productData} from '../../dummyData';
 import './product.css';
 
 function Product() {
@@ -16,7 +16,13 @@ function Product() {
             </Link>
         </div>
         <div className='productTop'>
-            <div className='productTopLeft'></div>
+            <div className='productTopLeft'>
+                <Chart 
+                    data={productData} 
+                    title='User Analytics' 
+                    dataKey='Active User' 
+                />
+            </div>
             <div className='productTopRight'></div>
         </div>
         <div className='productBottom'></div>
