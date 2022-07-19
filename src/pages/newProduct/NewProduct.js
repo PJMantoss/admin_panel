@@ -1,5 +1,5 @@
 import React from 'react';
-import './newProduct.css'
+import './newProduct.css';
 
 function NewProduct() {
   return (
@@ -7,4 +7,4 @@ function NewProduct() {
   )
 }
 
-export default NewProduct
+export default NewProduct;
