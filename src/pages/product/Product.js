@@ -95,6 +95,7 @@ function Product() {
                             style={{display: 'none'}}
                         />
                     </div>
+                    <button className='productBtn'>Update</button>
                 </div>
             </form>
         </div>
