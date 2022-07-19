@@ -2,14 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Chart from '../../components/chart/Chart';
 import {productData} from '../../dummyData';
-import {
-    PermIdentity,
-    CalendarToday,
-    PhoneAndroid,
-    MailOutline,
-    LocationOnOutlined,
-    Publish
-} from '@mui/icons-material';
+import { Publish} from '@mui/icons-material';
 import './product.css';
 
 function Product() {
@@ -17,7 +10,7 @@ function Product() {
     <div className='product'>
         <div className='productTitleContainer'>
             <h1 className='productTitle'>Product</h1>
-            <Link to='newproduct'>
+            <Link to='/newproduct'>
                 <button className='productAddBtn'>
                     Create
                 </button>
