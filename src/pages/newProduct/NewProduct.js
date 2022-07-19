@@ -28,8 +28,7 @@ function NewProduct() {
                     <option value='no'>No</option>
                 </select>
             </div>
-                <button className='productBtn'>Create</button>
-            </div>
+            <button className='productBtn'>Create</button>
         </form>
     </div>
   )
