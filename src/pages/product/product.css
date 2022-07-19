@@ -95,3 +95,14 @@
     border-bottom: 1px solid gray;
     border: 0;
 }
+
+.productFormLeft > select {
+    margin-bottom: 10px;
+}
+
+.productUploadImg{
+    width: ;
+    height: ;
+    border-radius: ;
+    object-fit: ;
+}
