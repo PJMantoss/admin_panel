@@ -6,7 +6,7 @@ import User from './pages/user/User';
 import NewUser from './pages/newUserPage/NewUser';
 import ProductList from './pages/Products/ProductList';
 import Product from './pages/product/Product';
-import NewProduct './pages/newProduct/NewProduct';
+import NewProduct from './pages/newProduct/NewProduct';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './app.css';
 
