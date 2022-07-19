@@ -110,6 +110,14 @@
 .productFormRight{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
-.productBtn{}
+.productBtn{
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background: darkgreen;
+    color: white;
+    cursor: pointer;
+}
