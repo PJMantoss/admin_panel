@@ -26,3 +26,14 @@
 .addProductItem > select{
     padding: 10px;
 }
+
+.addProductBtn{
+    border: 0;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    background: darkgreen;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
