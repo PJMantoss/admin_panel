@@ -1,4 +1,4 @@
-# An Admin Panel
+# An Admin Panel (Desktop)
 For Managing E-Commerce Accounts. Built with React, CSS and Material UI.
 
 ## Tools
