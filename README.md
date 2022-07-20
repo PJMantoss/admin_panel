@@ -1,5 +1,5 @@
-# An Admin Panel (Desktop)
-For Managing E-Commerce Accounts. Built with React, CSS and Material UI.
+# Admin Panel (Desktop)
+A Desktop Admin Panel for Managing E-Commerce Accounts. Built with React, CSS and Material UI.
 
 ## Tools
 - React JS
