@@ -1,5 +1,5 @@
-# An Admin Panel UI
-For for Managing E-Commerce Accounts. Built with React, CSS and Material UI.
+# An Admin Panel
+For Managing E-Commerce Accounts. Built with React, CSS and Material UI.
 
 ## Tools
 - React JS
@@ -13,3 +13,5 @@ For for Managing E-Commerce Accounts. Built with React, CSS and Material UI.
 - @mui/icons-material
 - @mui/x-data-grid
 - recharts 
+
+### Completed on July 19th, 2022.
