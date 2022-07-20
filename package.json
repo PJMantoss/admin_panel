@@ -1,5 +1,6 @@
 {
   "name": "admin_panel",
+  "homepage": "https://pjmantoss.github.io/admin_panel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
