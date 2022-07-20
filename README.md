@@ -13,5 +13,7 @@ For Managing E-Commerce Accounts. Built with React, CSS and Material UI.
 - @mui/icons-material
 - @mui/x-data-grid
 - recharts 
+- @emotion/react
+- @emotion/styled
 
 ### Completed on July 19th, 2022.
